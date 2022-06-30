@@ -1,0 +1,23 @@
+{
+  "name": "ejercicio-2",
+  "version": "1.0.0",
+  "description": "Ejercicio 2 de Node-js",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Jair Rincon",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
